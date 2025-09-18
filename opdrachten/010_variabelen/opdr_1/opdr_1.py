@@ -1,8 +1,10 @@
-# Opdracht 1
+# opdr_1.py
 # Naam student: Mohamed Maghri
 # Groep: Niveau 4
 
-# Hier komt je code...
-
+# Maak een lijst met de gevraagde waarden
 my_list = [13, "wat een weertje", 12.5, 8]
-print(my_list)
+
+# Print elk element onder elkaar
+for item in my_list:
+    print(item)
