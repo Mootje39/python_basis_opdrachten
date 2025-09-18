@@ -2,14 +2,20 @@
 # Naam student:
 # Groep:
 
-# Hier komt je code...
+def kerstboom():
+    """Geeft een lijst van strings terug met 1 kerstboom."""
+    return [
+        "    *    ",
+        "   ***   ",
+        "  *****  ",
+        " ******* ",
+        "*********",
+        "   ***   ",
+        "   ***   ",
+        "   ***   ",
+    ]
 
-# Maak vijf kerstbomen naast elkaar
-print("    *   " * 5)
-print("   ***  " * 5)
-print("  ******" * 5)
-print(" ********" * 5)
-print("***********" * 5)
-print("    ***   " * 5)
-print("    ***   " * 5)
-print("    ***   " * 5)
+# Maak 5 kerstbomen naast elkaar
+bomen = kerstboom()
+for regel in bomen:
+    print((regel + " ") * 5)
