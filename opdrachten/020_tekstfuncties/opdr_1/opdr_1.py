@@ -22,5 +22,5 @@ achternaam = "einstein"
 voornaam = "albert"
 achternaam = "einstein"
 
-volledigenaam = f"{voornaam} {achternaam}"
-print(volledigenaam)
+volledigenaam = f"{voornaam.capitalize()} {achternaam.capitalize()}"
+print(f"{volledigenaam} zei ooit: 'Als je niks fout doet, dan kun je ook niks leren!'")
