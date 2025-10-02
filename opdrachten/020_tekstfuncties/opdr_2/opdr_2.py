@@ -6,7 +6,7 @@
 
 # Opdracht: Tel hoe vaak de letter "t" voorkomt in de string
 
-my_string = "Tinus gaat op zijn tandem naar de hottentottententoonstelling"
+my_string = "Tinus gaat op zijn tandem naar de hottentottententoonstelling met truusje"
 
 t_count = my_string.lower().count('t') 
 
