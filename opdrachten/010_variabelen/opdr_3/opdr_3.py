@@ -5,10 +5,10 @@
 # Hier komt je code...
 
 my_dict = {
-    "naam": "Willem",
-    "achternaam": "van der Broek",
-    "leeftijd": 23,
-    "Favoriete kleur": "blauw"
+    "naam": "Mohamed",
+    "achternaam": "Maghri",
+    "leeftijd": 240,
+    "Favoriete kleur": "Rood"
 }
 
 print(my_dict)
