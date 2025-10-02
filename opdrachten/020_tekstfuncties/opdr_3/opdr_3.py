@@ -18,4 +18,4 @@ def kerstboom():
 # Maak 5 kerstbomen naast elkaar
 bomen = kerstboom()
 for regel in bomen:
-    print((regel + " ") * 5)
+    print((regel + " ") * 6)
