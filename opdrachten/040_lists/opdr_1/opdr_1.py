@@ -21,4 +21,5 @@ persoon4 = {"id": 3, "voornaam": "Noah", "achternaam": "Peters"}
 personen.extend([persoon1, persoon2, persoon3, persoon4])
 
 # Print de volledige naam van de 2e persoon
-print(personen[1]["voornaam"], personen[1]["achternaam"])
+print(personen[0]["voornaam"], personen[0]["achternaam"])
+
