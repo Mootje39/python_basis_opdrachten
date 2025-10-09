@@ -25,7 +25,7 @@ print(f"> {c} graden Celsius is gelijk aan {f_converted:.1f} graden Fahrenheit")
 print(f"> {f} graden Fahrenheit is gelijk aan {c_converted:.1f} graden Celsius")
 
 # Nieuwe set waarden
-c = 62.2
+c = 70
 f = 96
 
 # Berekeningen
@@ -54,7 +54,7 @@ print(f"> {c} graden Celsius is gelijk aan {celsius_naar_fahrenheit(c):.1f} grad
 print(f"> {f} graden Fahrenheit is gelijk aan {fahrenheit_naar_celsius(f):.1f} graden Celsius")
 
 # Nieuwe waarden
-c = 62.2
+c = 70
 f = 96
 
 print(f"> {c} graden Celsius is gelijk aan {celsius_naar_fahrenheit(c):.1f} graden Fahrenheit")
