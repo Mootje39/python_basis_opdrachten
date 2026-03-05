@@ -3,3 +3,8 @@ Wat vind je van de huidige regering? drama
 Wat vind je van de Python-lessen tot nu toe? lastig
 Wat vind jij de mooiste stad van Nederland? Eindhoven
 ----------------------------------------
+Nieuwe enquete:
+Wat vind je van de huidige regering? slecht
+Wat vind je van de Python-lessen tot nu toe? moeilijk
+Wat vind jij de mooiste stad van Nederland? eindhoven
+----------------------------------------
