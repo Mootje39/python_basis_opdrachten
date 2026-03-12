@@ -2,13 +2,16 @@
 # Naam student:
 # Groep:
 
+# opdr_4.py
 
 def volledige_naam(lijst_met_namen):
-    # hier komt jouw code
-    # Het woordje pass mag je weghalen
-    pass
+    for persoon in lijst_met_namen:
+        # gebruik filter om lege strings te negeren en join om correct te spacen
+        naam = " ".join(filter(None, [persoon["voornaam"], persoon["tussenvoegsel"], persoon["achternaam"]]))
+        print(naam)
 
 
+# Voorbeeldlijst
 namen = [
     {"voornaam": "Willem", "tussenvoegsel": "van", "achternaam": "Dijk"},
     {"voornaam": "Klaas", "tussenvoegsel": "", "achternaam": "Wopstra"},
@@ -16,4 +19,5 @@ namen = [
     {"voornaam": "Carla", "tussenvoegsel": "", "achternaam": "Hoogvliet"},
 ]
 
+# Functie aanroepen
 volledige_naam(namen)
